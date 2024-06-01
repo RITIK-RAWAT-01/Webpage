@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body-content{
+    width: 100%;
+}
+.header-bar{
+    width: 100%;
+    background-color: rgb(95, 95, 202);
+}
+.nav1{
+    width: 1100px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1 p{
+    font-size: larger;
+    color: whitesmoke;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.nav1 p:hover{
+    color: rgba(205, 205, 205, 0.815);
+}
+.nav1 p i{
+    font-size: smaller; 
+    color: whitesmoke;
+    padding-right: 12px;
+}
+.nav1 ul li{
+    list-style: none;
+    border: .01px ridge rgb(192, 192, 192);
+    padding-bottom: 50px;
+    font-size: 17px;
+    color: whitesmoke;
+    padding: 5px;
+    cursor: pointer;
+}
+.nav1 ul li i{
+    padding: 0px 3px;
+    color: whitesmoke;
+}
+.nav1 ul ul li{
+    width: 180px;
+    border-top: .01px ridge rgb(192, 192, 192);
+    padding: 5px 10px;
+    background-color: rgb(95, 95, 202);
+}
+.nav1 ul ul{
+    position: absolute;
+    display: none;
+    padding-top: 10px;
+}
+.nav1 ul ul li:hover{
+    color: rgba(205, 205, 205, 0.815);
+}
+.nav1 ul:hover > ul{
+    display: block;
+}
+.nav-content{
+    width: 1100px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.owner-name h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.owner-name p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(99, 99, 99, 0.922);
+}
+.search-box{
+    border-bottom: .01px ridge rgb(192, 192, 192);
+    margin: 0px;
+    padding: 0px;
+    height: 33px;
+}
+.search-box input{
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.search-box i{
+    padding: 8px 10px;
+}
+
+
+
+.navition-baar{
+    width: 100%;
+    background-color: rgb(95, 95, 202);
+    padding: 20px 0px;
+}
+.nav-list{
+    width: 1100px;
+    margin: 0px auto;
+}
+.nav-list ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-list ul a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: tahoma;
+}
+.nav-list ul a:hover{
+    color: rgba(205, 205, 205, 0.815);
+}
+.contect{
+    width: 1100px;
+    margin: 0px auto;
+}
+.contect h1{
+    font-size: 28px;
+    font-family: arial;
+    margin-top: 80px;
+}
+.feb{
+    width: 240px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.feb a{
+    font-family: arial;
+    text-decoration: none;
+    color: rgb(55, 55, 55);
+}
+.feb i{
+    margin-right: 6px;
+    font-size: large;
+}
+
+
+.master-course{
+    width: 1100px;
+    margin: 0px auto;
+}
+.onlineLIVE h1{
+    margin: 35px 0px;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.course-name p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(87, 87, 255);
+    margin-bottom: 5px;
+}
+.course-name h2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.course-detail p{
+    margin: 35px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(87, 87, 255);
+}
+.course-detail ul{
+    margin-left: 35px;
+}
+.course-detail li{
+    font-family: arial;
+    font-size: 16px;
+    line-height: 30px;
+}
+#Duration p{
+    margin: 20px 0px 30px 0px;
+}
+#Instructor p{
+    margin: 20px 0px 30px 0px;
+}
+#Instructor h2 , #Medium h2 ,  #fee h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+#Features li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.40rem;
+    line-height: 30px;
+}
+#Syllabus p{
+    margin-bottom: 0px;
+}
+#Syllabus h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+}  
+.introtoPython{
+    margin: 40px 0px 0px 20px;
+}
+.introtoPython ul{
+    margin: 0px;
+    padding: 40px 0px 40px 20px;
+}
